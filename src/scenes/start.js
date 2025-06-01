@@ -48,7 +48,7 @@ export class Start extends Phaser.Scene {
 
         // Inicia a próxima cena (SelectShip) quando ENTER for pressionado
         this.input.keyboard.once('keydown-ENTER', () => {
-            this.scene.start('SelectShip');
+            this.scene.start('CutsceneOne');
         });
     }
 
